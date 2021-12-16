@@ -35,7 +35,7 @@ contract Lottery {
         jackpot = 0;
     }
 
-    function getLastWinnder() public view returns (address) {
+    function getLastWinner() public view returns (address) {
         return lastWinner;
     }
 
